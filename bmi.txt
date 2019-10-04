@@ -1,0 +1,149 @@
+<html>
+<head><title>Project</title>
+<style>
+.imageh 
+{
+position:absolute;
+top:6%;
+left:39%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image 
+{
+position:absolute;
+top:6%;
+left:46%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image1 
+{
+position:absolute;
+top:6%;
+left:53%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image12 
+{
+position:absolute;
+top:6%;
+left:60%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image123 
+{
+position:absolute;
+top:6%;
+left:67%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image1234 
+{
+position:absolute;
+top:6%;
+left:74%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image12345 
+{
+position:absolute;
+top:6%;
+left:88%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image123456 
+{
+position:absolute;
+top:6%;
+left:81%;
+margin-top: -18px;
+margin-left: -155px;
+}
+
+.pch 
+{
+position:absolute;
+top:38%;
+left:13%;
+}
+
+.pch2
+{
+position:absolute;
+top:14%;
+left:34%;
+}
+.pch4 
+{
+position:absolute;
+top:50%;
+left:15%;
+}
+</style>
+</head>
+<body style="background:url(tcwlmff.gif);background-repeat:no-repeat;background-size:100% 100%">
+<div class="imageh">
+<a href="web1.html">
+<img src="homef.jpg">
+</a>
+</div>
+<div class="image">
+<a href="web2a.html">
+<img src="wl1f.jpg">
+</a>
+</div>
+<div class="image1">
+<a href="web2b.html">
+<img src="wl2f.jpg"></a>
+</div>
+<div class="image12">
+<a href="web2c.html">
+<img src="wl3f.jpg"></a>
+</div>
+<div class="image123">
+<a href="web2d.html">
+<img src="wl4f.jpg"></a>
+</div>
+<div class="image1234">
+<a href="web2e.html">
+<img src="wl5f.jpg"></a>
+</div>
+<div class="image12345">
+<a href="web2f.html">
+<img src="wl6f.jpg">
+</a></div>
+<div class="image123456">
+<a href="web2g.html">
+<img src="wl7f.jpg"></a>
+</div>
+<div class="pch2">
+<img src="b.jpg" height="500" width="500" align="right">
+<p>
+<h3>BMI CALCULATOR</h3>
+Body mass index compares your weight with height by dividing the weight by height squared.<br>
+The calculator allows you to figure out whether you are underweight, overweight, obese or within the safe parameters. <br>
+Doctors also use it to determine how appropriate an individual’s weight is for a certain age and height.<br>
+Although the BMI does not measure the fat percentage in your body, a high BMI could point at high body fatness.<br>
+Ideal Body Mass Index:<br>
+The ideal BMI is somewhere between 20 and 25.<br>
+Body Mass Index Interpretation:<br>
+• BMI < 18.5: Below normal weight<br>
+• BMI > 18.5 and < 25: Normal weight<br>
+• BMI > 25 and < 30: Overweight<br>
+• BMI > 30 and < 35: Class I Obesity<br>
+• BMI > 35 and < 40: Class II Obesity<br>
+• BMI > 40: Class III Obesity<br>
+BMI For Adults Vs. BMI For Children And Teens (two to 20 years)<br>
+The BMI for kids and adults is calculated the same way but is interpreted differently.<br>
+For children and teens, BMI is calculated based on their age and gender. It is often called BMI-for-age.<br>
+BMI for children is expressed in terms of percentile, in comparison to the BMI of children of the same age and gender.<br>
+</p>
+</div>
+</body>
+</html>

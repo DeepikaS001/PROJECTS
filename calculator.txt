@@ -1,0 +1,195 @@
+<html>
+<head><title>Project</title>
+<script type="text/javascript">
+<!-- Begin
+function mod(div,base) 
+{	return Math.round(div - (Math.floor(div/base)*base));
+}
+
+function calcBmi() 
+{	var w = document.getElementById("weight").value * 1;
+	var HeightFeetInt = document.getElementById("htf").value * 1;
+	var HeightInchesInt = document.getElementById("hti").value * 1;
+	HeightFeetConvert = HeightFeetInt * 12;
+	h = HeightFeetConvert + HeightInchesInt;
+	displaybmi = (Math.round((w * 703) / (h * h)));
+	var rvalue = true;
+	if ( (w <= 35) || (w >= 500) || (h <= 48) || (h >= 120) ) 
+	{	alert ("Invalid data. Please check and re-enter!");
+		rvalue = false;
+	}
+	if (rvalue) 
+	{	if (HeightInchesInt > 11) 
+		{	reminderinches = mod(HeightInchesInt,12);
+			document.getElementById("hti").value = reminderinches;
+			document.getElementById("htf").value = HeightFeetInt + ((HeightInchesInt - reminderinches)/12);
+			document.getElementById("answer").value = displaybmi;
+		}
+		if (displaybmi <19)
+			document.getElementById("comment").value = "Underweight";
+		if (displaybmi >=19 && displaybmi <=25)
+			document.getElementById("comment").value = "Desirable";
+		if (displaybmi >=26 && displaybmi <=29)
+			document.getElementById("comment").value = "prone to health risks";
+		if (displaybmi >=30 && displaybmi <=40)
+			document.getElementById("comment").value = "Obese";
+		if (displaybmi >40)
+			document.getElementById("comment").value = "Extremely obese";
+			document.getElementById("answer").value = displaybmi; 
+	}
+	return rvalue;
+}
+// End -->
+</script>
+<style>
+.imageh 
+{
+position:absolute;
+top:6%;
+left:39%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image 
+{
+position:absolute;
+top:6%;
+left:46%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image1 
+{
+position:absolute;
+top:6%;
+left:53%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image12 
+{
+position:absolute;
+top:6%;
+left:60%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image123 
+{
+position:absolute;
+top:6%;
+left:67%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image1234 
+{
+position:absolute;
+top:6%;
+left:74%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image12345 
+{
+position:absolute;
+top:6%;
+left:88%;
+margin-top: -18px;
+margin-left: -155px;
+}
+.image123456 
+{
+position:absolute;
+top:6%;
+left:81%;
+margin-top: -18px;
+margin-left: -155px;
+}
+
+.pch 
+{
+position:absolute;
+top:38%;
+left:13%;
+}
+
+.pch2
+{
+position:absolute;
+top:14%;
+left:34%;
+}
+.pch4 
+{
+position:absolute;
+top:50%;
+left:15%;
+}
+</style>
+</head>
+<body style="background:url(tcwlmff.gif);background-repeat:no-repeat;background-size:100% 100%">
+<div class="imageh">
+<a href="web1.html">
+<img src="homef.jpg">
+</a>
+</div>
+<div class="image">
+<a href="web2a.html">
+<img src="wl1f.jpg">
+</a>
+</div>
+<div class="image1">
+<a href="web2b.html">
+<img src="wl2f.jpg"></a>
+</div>
+<div class="image12">
+<a href="web2c.html">
+<img src="wl3f.jpg"></a>
+</div>
+<div class="image123">
+<a href="web2d.html">
+<img src="wl4f.jpg"></a>
+</div>
+<div class="image1234">
+<a href="web2e.html">
+<img src="wl5f.jpg"></a>
+</div>
+<div class="image12345">
+<a href="web2f.html">
+<img src="wl6f.jpg">
+</a></div>
+<div class="image123456">
+<a href="web2g.html">
+<img src="wl7f.jpg"></a>
+</div>
+<div class="pch2">
+<center>
+<h1>BMI CALCULATOR</h1>
+<form>
+<table width=400 border=10>
+<tr><td align=center><B>Weight:</B>
+<input type=text id="weight" SIZE=3 maxlength=3> lbs(pound)</td></tr>
+<tr><td align=center><B>Height:</B>
+<input type=text id="htf" size=1 maxlength=1> Ft.(feet)
+<input type=text id="hti" size=2 maxlength=2> In.(inches)
+</td></tr>
+<tr><td align=center>
+<input type=button value="Calculate BMI" onclick="calcBmi()">
+<hr></td></tr>
+<tr><td><B>Body Mass Index</B>
+<input type=text id="answer" size=3>
+</td></tr>
+<tr><td>According to the Panel on Energy, Obesity, and Body Weight Standards published by American
+Journal of Clinical Nutrition, your category is:<br>
+<input type=text id="comment" size=25>
+</td></tr>
+</table>
+</form>
+<A href="table.html" target="blank">
+<b>TO KNOW MORE</b>
+</A>
+</center>
+</div>
+</body>
+</html>

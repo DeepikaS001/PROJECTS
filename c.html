@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>submit and reset confirmation </title>
+<script type="text/javascript">
+function allowReset(){
+return window.confirm("go ahead and clear the form");
+}
+function allowSend()
+{
+return window.confirm("your data has been received.  THANKYOU! " );
+}
+
+</script>
+</head>
+<body>
+
+<form method="post"enctype="text/plain" action="mailto:a@b.com" onreset="return allowReset()"
+onsubmit="return allowSend()">
+
+<b> Name : </b>
+<input type="text" name= "name" id="name"/><br><br>
+<b>Email id</b>
+<input type="text" name="email" id="email"/><br><br>
+<b>Mobile no.</b>
+<input type="char" name="mobile no" ="mobile no"/><br><br>
+<b>Feedback</b>
+<input type="text" name="feedback" ="feedback"/><br><br>
+
+<b><input type="reset"/>
+<b><input type="submit"/>
+</form>
+</body>
+</html>
