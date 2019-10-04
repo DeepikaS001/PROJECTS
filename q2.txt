@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>question</title>
+<script language=javascript>
+function f1(form)
+{
+if(form.r1.checked)
+{
+document.write(alert("correct answer"));
+}
+else
+{
+document.write(alert("Incorrect answer correct answer is Fat"));
+}
+}
+</script>
+</head>
+<body>
+<form>
+<center>
+<p><br><br><br><br><b>
+2Q Which of these food groups is the most calorie dense, that is, has the most calories per gram?
+<br><br><br>
+<A href="q3.html" target="blank">
+<input type="radio" name="r1" value="Fat" onclick="f1(this.form)">Fat<br>
+</A>
+<A href="q3.html" target="blank">
+<input type="radio" name="r2" value="Sugar" onclick="f1(this.form)">Sugar<br>
+</A>
+<A href="q3.html" target="blank">
+<input type="radio" name="r3" value="Protein" onclick="f1(this.form)">Protein<br>
+</A>
+<A href="q3.html" target="blank">
+<input type="radio" name="r4" value="Carbohydrate" onclick="f1(this.form)">Carbohydrate<br>
+</A>
+<A href="q1.html" target="blank">
+<input type="button" name="b1" value="Previous"> 
+</A>
+<A href="q3.html" target="blank">
+<input type="button" name="b2" value="Next"><br></b>
+</A>
+</p>
+</center>
+</body>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>login form design</title>
+<style>
+body
+{
+margin:0;
+padding:0;
+font-family:sans-serif;
+background-image:url("happy.jpg");
+background-size:cover;
+background-position:center;
+}
+.background
+{
+background-color:black;
+background-size:cover;
+}
+.font1
+{
+color:white;
+font-size:25px;
+text-align:center;
+font-family:lucida handwriting;
+padding:2px;
+}
+.navbar
+{
+text-align:right;
+font-family:verdana;
+width:100%;
+background:grey;
+}
+.navbar ul
+{
+margin:0;
+padding:0;
+list-style:none;
+position:relative;
+z-index:100;
+}
+.navbar ul li a
+{
+display:block;
+padding:24px;
+color:white;
+text-decoration:none;
+width:90px;
+}
+.navbar ul:after
+{
+content:" "; clear:both;
+display:block;
+}
+.navbar ul li
+{
+float:left;
+listy-style:none;
+}
+.navbar ul ul
+{
+display:none;
+}
+.navbar ul li:hover > ul
+{
+display:block;
+}
+.navbar ul li:hover 
+{
+background:black;
+transition:0.9s;
+}
+.navbar ul li:hover a
+{
+color:white;
+}
+.navbar ul ul
+{
+background:black;
+padding:0;
+margin:0;
+position:absolute;
+top:100%;
+}
+.navbar ul ul li
+{
+float:none;
+position:relative;
+}
+.navbar ul ul li a
+{
+padding:20px;
+color:white;
+width:200px;
+text-align:left;
+}
+.navbar ul ul li a:hover
+{
+background:lightblue;
+color:black;
+transition:0.9s;
+}
+.loginbox
+{
+width:320px;
+height:390px;
+background:#000;
+color:#fff;
+top:50%;
+left:37%;
+position:absolute;
+tranform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+.avatar
+{
+width:100px;
+height:100px;
+border-radius:50%;
+position:absolute;
+top:-13%;
+left:calc(50% - 50px);
+}
+h1
+{
+margin:0;
+padding:0;
+text-align:center;
+font-size:22px;
+}
+.loginbox p
+{
+margin:0;
+padding:0;
+font-weight:bold;
+}
+.loginbox input 
+{
+width:100%;
+margin-bottom:20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+border:none;
+border-bottom:1px solid #fff;
+background:transparent;
+outline:none;
+height:40px;
+color:#fff;
+font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+border:none;
+outline:none;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:18px;
+border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+cursor:pointer;
+background:lightgrey;
+color:#000;
+}
+.loginbox a
+{
+text-decoration:none;
+font-size:12px;
+line-height:20px;
+color:darkgrey;
+}
+.loginbox a:hover
+{
+color:#ffc107;
+}
+
+</style>
+</head>
+<body>
+<div class="background">
+<div class="font1"><h2>Expression Dance Studio</h2></div>
+</div>
+
+<div class="navbar">
+<ul>
+<li><a href="nav.html">Home</a></li>
+<li><a href="#">About</a>
+<ul>
+<li><a href="teachers.html">Teachers</a></li>
+<li><a href="partners.html">Partners</a></li>
+</ul>
+</li>
+<li><a href="class.html">Classes</a></li>
+<li><a href="danceschedule.html">Schedule</a></li>
+<li><a href="registration.html">Register</a></li>
+<li><a href="#">Login</a>
+<ul>
+<li><a href="login.html">Login</a></li>
+<li><a href="signup.html">Sign Up</a></li>
+</ul></li>
+</ul>
+</div>
+
+<div class="loginbox"><img src="avatar.jpg" class="avatar">
+<h1>Login here</h1>
+<form>
+<p>Username</p>
+<input type="text" name="" placeholder="Enter Username" required>
+<p>Password</p>
+<input type="password" name="" placeholder="Enter Password" required>
+<input type="submit" name="" value="Login">
+<a href="signup.html">Don't have an account?</a>
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>question</title>
+<script language=javascript>
+function f1(form)
+{
+if(form.r2.checked)
+{
+document.write(alert("correct answer"));
+}
+else
+{
+document.write(alert("Incorrect answer correct answer is About 15 to 20 minutes"));
+}
+}
+</script>
+</head>
+<body>
+<form>
+<center>
+<p><br><br><br><br><b>
+4Q  How many minutes would a woman of average size have to walk at a moderate pace to work off <br>
+two extra teaspoons of cream and two extra teaspoons of sugar in her coffee daily?<br>
+<br><br><br>
+<A href="q5.html" tartget="blank">
+<input type="radio" name="r1" value="About 1 hr" onclick="f1(this.form)">About 1 hr<br>
+</A>
+<A href="q5.html" tartget="blank">
+<input type="radio" name="r2" value="About 15 to 20 minutes" onclick="f1(this.form)">About 15 to 20 minutes<br>
+</A>
+<A href="q5.html" tartget="blank">
+<input type="radio" name="r3" value="About 5 minutes" onclick="f1(this.form)">About 5 minutes<br>
+</A>
+<A href="q5.html" tartget="blank">
+<input type="radio" name="r4" value="About 30 to 45 minutes" onclick="f1(this.form)">About 30 to 45 minutes<br><br>
+</A>
+<A href="q3.html" target="blank">
+<input type="button" name="b1" value="Previous"> 
+</A>
+<A href="q5.html" target="blank">
+<input type="button" name="b2" value="Next"><br></b>
+</A>
+</p>
+</center>
+</form>
+</body>
+</html>
+
+
+
+
+
+

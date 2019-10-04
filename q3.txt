@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>question</title>
+<script language=javascript>
+function f1(form)
+{
+if(form.r1.checked)
+{
+document.write(alert("correct answer"));
+}
+else
+{
+document.write(alert("Incorrect answer correct answer is 10 lbs"));
+}
+}
+</script>
+</head>
+</head>
+<body>
+<form>
+<center>
+<p><br><br><br><br><b>
+3Q  You usually drink your daily two cups of coffee black, but you start adding two teaspoons of sugar <br>
+and two teaspoons of full fat cream. Assuming your diet and exercise levels remain the same, <br>
+approximately how much weight could you potentially gain in one year from this change of habit?<br>
+<br><br><br>
+<A href="q4.html" target="blank">
+<input type="radio" name="r1" value="10 lbs" onclick="f1(this.form)">10 lbs<br>
+</A>
+<A href="q4.html" target="blank">
+<input type="radio" name="r2" value=" 25 lbs" onclick="f1(this.form)">25 lbs<br>
+</A>
+<A href="q4.html" target="blank">
+<input type="radio" name="r3" value=" None" onclick="f1(this.form)">None<br>
+</A>
+<A href="q4.html" target="blank">
+<input type="radio" name="r4" value=" 5 lbs" onclick="f1(this.form)">5 lbs<br><br>
+</A>
+<A href="q2.html" target="blank">
+<input type="button" name="b1" value="Previous"> 
+</A>
+<A href="q4.html" target="blank">
+<input type="button" name="b2" value="Next"><br></b>
+</A>
+</p>
+</center>
+</form>
+</body>
+</html>
+
+
+
+
+
+
